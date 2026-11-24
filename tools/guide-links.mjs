@@ -25,11 +25,11 @@ export const GUIDE_URLS = {
         dev: slash(env.GUIDE_DEV_URL_CORRESPONDENCE ?? 'http://127.0.0.1:4324/'),
     },
     training: {
-        prod: slash(env.GUIDE_PROD_URL_TRAINING ?? 'https://kayan-training.onrender.com/'),
+        prod: slash(env.GUIDE_PROD_URL_TRAINING ?? 'https://training-kit-ne6t.onrender.com/'),
         dev: slash(env.GUIDE_DEV_URL_TRAINING ?? 'http://127.0.0.1:4326/'),
     },
     sop: {
-        prod: slash(env.GUIDE_PROD_URL_SOP ?? 'https://sop-guide.onrender.com/'),
+        prod: slash(env.GUIDE_PROD_URL_SOP ?? 'https://sop-sjbx.onrender.com/'),
         dev: slash(env.GUIDE_DEV_URL_SOP ?? 'http://127.0.0.1:4325/'),
     },
 }

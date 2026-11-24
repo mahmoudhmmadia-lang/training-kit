@@ -486,7 +486,7 @@ const APPS_UI = {
     en: { title: 'Guide apps', heading: 'Choose what you want to understand', here: 'You are here', soon: 'Coming soon', deepens: 'Deepens', groups: { training: ['Training', 'Start here if you are new to Kayan'], reference: ['Reference', 'Explains every page in Kayan'], practice: ['Practical apps', 'Understand the tools by building a full workflow with them'] } },
 }
 const GUIDE_APPS = [
-    { id: 'training', group: 'training', soon: true, icon: '<path d="M3 9.5 12 5l9 4.5-9 4.5z"/><path d="M7 11.5v4c0 1.4 2.2 2.5 5 2.5s5-1.1 5-2.5v-4M21 9.5V15"/>',
+    { id: 'training', group: 'training', icon: '<path d="M3 9.5 12 5l9 4.5-9 4.5z"/><path d="M7 11.5v4c0 1.4 2.2 2.5 5 2.5s5-1.1 5-2.5v-4M21 9.5V15"/>',
       ar: ['الحقيبة التدريبية', 'تعرّف على كيان في وحدات قصيرة: لماذا كيان، وأدوات العمل اليومي، وتطبيقات المؤسسة، وأدوات البناء، وكيف تنقل عمل مؤسستك إليه.', ['كل الأدلة']],
       en: ['Training kit', 'Get to know Kayan in short units: why Kayan, ready-made apps, builder tools and moving your work into it.', ['All guides']] },
     { id: 'main', group: 'reference', icon: '<path d="M5 4h10a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3z"/><path d="M5 17a3 3 0 0 1 3-3h10M9 8h5"/>',
@@ -501,7 +501,7 @@ const GUIDE_APPS = [
     { id: 'correspondence', group: 'practice', icon: '<rect x="3" y="6" width="18" height="13" rx="2"/><path d="m3 8 9 6 9-6"/>',
       ar: ['المراسلات', 'تتابع دورة كتاب رسمي من إنشائه إلى أرشفته: الوارد والإحالة والرد والصادر.', ['المراسلات الرسمية', 'الموارد البشرية']],
       en: ['Correspondence', 'Follow an official letter from drafting to archive: incoming, referral, reply and outgoing.', ['Official correspondence', 'HR']] },
-    { id: 'sop', group: 'practice', soon: true, icon: '<circle cx="6" cy="6" r="2.5"/><circle cx="18" cy="12" r="2.5"/><circle cx="6" cy="18" r="2.5"/><path d="M8.5 6H12a3 3 0 0 1 3 3v.5M8.5 18H12a3 3 0 0 0 3-3v-.5"/>',
+    { id: 'sop', group: 'practice', icon: '<circle cx="6" cy="6" r="2.5"/><circle cx="18" cy="12" r="2.5"/><circle cx="6" cy="18" r="2.5"/><path d="M8.5 6H12a3 3 0 0 1 3 3v.5M8.5 18H12a3 3 0 0 0 3-3v-.5"/>',
       ar: ['الإجراءات الداخلية', 'تبني إجراءً يعتمد ويكلّف وحده، ثم تتابع به مهلة تسوية ضبط حقيقية.', ['الإجراءات الداخلية', 'الكيانات']],
       en: ['Internal SOPs', 'Build an SOP that approves and assigns on its own, then follow a real settlement deadline with it.', ['Internal SOPs', 'Entities']] },
 ]

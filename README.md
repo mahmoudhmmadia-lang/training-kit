@@ -53,5 +53,5 @@ npm run verify:training    # فحص المتصفح (Edge) وصور في review/s
 - `\qlink{guide}{label}{page}` يضيف الروابط نفسها إلى خطوات `rcquick` في التطبيقات العملية.
 - الأدوات في `tools/` نسخ من `main/tools` يحدّثها `node sync-reader.mjs`؛ ما عدا `build-html.mjs` و`serve-html.mjs` والفحوص فهي خاصة بالحقيبة.
 - `\qlink` يقبل معرّفات `guide-links.mjs` (`main`, `builder`, `inspection`, `correspondence`, `sop`). الفحص يتأكد أن كل صفحة مرتبطة موجودة في `site/` الدليل المعني.
-- بطاقة الحقيبة في «تطبيقات الدليل» موسومة «قريباً» (`soon: true` في `GUIDE_APPS`) حتى تُنشر على `https://kayan-training.onrender.com/` (العنوان مؤقت في `guide-links.mjs`).
-- لم يُنشأ مستودع git ولا خدمة Render للحقيبة بعد.
+- منشورة على `https://training-kit-ne6t.onrender.com/` من المستودع `git@github.com:mahmoudhmmadia-lang/training-kit.git`. العنوان في `guide-links.mjs`.
+- للنشر: من مجلد `guides/` شغّل `bun push training` (أو `bun push` لكل الأدلة).
